@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viresh Panchal - Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo" style="font-family: sofia">VP</div>
+          <ul class="nav-links">
+            <li>
+              <a href="#" onclick="showPage('home')" class="nav-link active"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showPage('projects')" class="nav-link"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showPage('resume')" class="nav-link"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showPage('about')" class="nav-link">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="containder_resp"></div>
+    </header>
+
+    <div class="container">
+      <!-- Home Page -->
+      <div id="home" class="page active">
+        <main>
+          <div class="content-wrapper">
+            <section class="hero">
+              <div
+                style="
+                  width: 200px;
+                  height: 200px;
+                  border-radius: 50%;
+                  background: linear-gradient(135deg, #667eea, #764ba2);
+                  margin: 0 auto 2rem;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: white;
+                  font-size: 4rem;
+                  font-weight: bold;
+                  font-family: sofia;
+                "
+              >
+                VP
+              </div>
+              <h1>Hello, I am Viresh Panchal</h1>
+              <p>
+                Transforming ideas into seamless backend experiences with
+                Python.
+              </p>
+              <div class="hero-btn">
+                <a target="_blank" href="https://github.com/viru757pan/"
+                  ><span class="icon-github2" style="margin-right: 5px"></span
+                  >GitHub</a
+                >
+                <a target="_blank" href="mailto:panchalviresh757@gmail.com">
+                  <span class="icon-email" style="margin-right: 5px"></span
+                  >Contact</a
+                >
+              </div>
+            </section>
+
+            <section class="featured-projects">
+              <h2
+                style="text-align: center; margin-bottom: 2rem; color: #667eea"
+              >
+                Featured Projects
+              </h2>
+              <div class="projects-grid">
+                <div class="project-card">
+                  <h3>Weather Data Analytics</h3>
+                  <p>
+                    Explores weather datasets to understand temperature
+                    patterns, rainfall distribution, and seasonal trends.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">NumPy</span>
+                    <span class="tech-tag">Matplotlib</span>
+                    <span class="tech-tag">Seaborn</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/viru757pan/Python-Projects/tree/main/Weather%20Data%20Analytics"
+                      ><span class="icon-github2"></span> Code</a
+                    >
+                  </div>
+                </div>
+                <div class="project-card">
+                  <h3>Student Performance Dashboard</h3>
+                  <p>
+                    Analyses student exam performance data to identify key
+                    factors influencing outcomes such as gender, test
+                    preparation, and parental education.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">NumPy</span>
+                    <span class="tech-tag">Matplotlib</span>
+                    <span class="tech-tag">Seaborn</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/viru757pan/Python-Projects/tree/main/Student%20Performance%20Dashboard"
+                      ><span class="icon-github2"></span> Code</a
+                    >
+                  </div>
+                </div>
+                <div class="project-card">
+                  <h3>Stock Market Data Analysis</h3>
+                  <p>
+                    Analyzes historical stock prices to identify trends,
+                    calculate moving averages, and visualize performance over
+                    time.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">NumPy</span>
+                    <span class="tech-tag">Matplotlib</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      target="_blank"
+                      href="https://github.com/viru757pan/Python-Projects/tree/main/Stock%20Market%20Data%20Analysis"
+                      ><span class="icon-github2"></span> Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="view-more">
+                <a href="#" onclick="showPage('projects')" class="cta-button"
+                  >View All Projects</a
+                >
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+
+      <!-- Projects Page -->
+      <div id="projects" class="page">
+        <main>
+          <div class="content-wrapper">
+            <h1 class="page-title">All Projects</h1>
+            <div class="projects-grid">
+              <div class="project-card">
+                <h3>Weather Data Analytics</h3>
+                <p>
+                  Explores weather datasets to understand temperature patterns,
+                  rainfall distribution, and seasonal trends.
+                </p>
+                <div class="project-links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/viru757pan/Python-Projects/tree/main/Weather%20Data%20Analytics"
+                    ><span class="icon-github2"></span> Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <h3>Student Performance Dashboard</h3>
+                <p>
+                  Analyses student exam performance data to identify key factors
+                  influencing outcomes such as gender, test preparation, and
+                  parental education.
+                </p>
+                <div class="project-links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/viru757pan/Python-Projects/tree/main/Student%20Performance%20Dashboard"
+                    ><span class="icon-github2"></span> Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <h3>Stock Market Data Analysis</h3>
+                <p>
+                  Analyzes historical stock prices to identify trends, calculate
+                  moving averages, and visualize performance over time.
+                </p>
+                <div class="project-links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/viru757pan/Python-Projects/tree/main/Stock%20Market%20Data%20Analysis"
+                    ><span class="icon-github2"></span> Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <h3>Music Player</h3>
+                <p>
+                  A simple yet functional desktop music player built using
+                  Python, Tkinter, and Pygame. This project allows users to load
+                  .mp3 songs, play, pause, stop, and navigate through their
+                  music with an interactive GUI.
+                </p>
+                <div class="project-links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/viru757pan/Music-Player"
+                    ><span class="icon-github2"></span> Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <h3>2D Shooter Game</h3>
+                <p>
+                  This 2D Shooter Game in Python using Pygame features multiple
+                  levels with enemies and obstacles. Level layouts and elements
+                  are defined in CSV files like level1_data.csv and
+                  level2_data.csv.
+                </p>
+                <div class="project-links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/viru757pan/Shooter-Game"
+                    ><span class="icon-github2"></span> Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <h3>AI Volume Control</h3>
+                <p>
+                  Hand tracking module created using OpenCV and Mediapipe's Hand
+                  module. Tracks the hands and shows the 21 different landmarks
+                  in the hand.
+                </p>
+                <div class="project-links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/viru757pan/Computer-Vision/tree/main/AI_Volume_Control"
+                    ><span class="icon-github2"></span> Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <!-- Resume Page -->
+      <div id="resume" class="page">
+        <main>
+          <div class="content-wrapper">
+            <div class="header">
+              <h1 class="page-title">Resume</h1>
+
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1rY_BtFAMA9yF8uzb5nik96ZJY_K3i6JE/view?usp=drive_link"
+                class="pdf-button"
+              >
+                <span class="icon-download"></span> Open PDF in new tab
+              </a>
+            </div>
+
+            <div class="resume-section">
+              <h2>Who I Am</h2>
+              <div class="profile-item">
+                <h1>Viresh Panchal</h1>
+                <p style="color: #666">BCA Student • Python Developer</p>
+                <div class="item-list">
+                  <div class="mb-2">
+                    <span class="text">Email:</span
+                    ><a
+                      target="_blank"
+                      href="mailto:panchalviresh757@gmail.com"
+                      class="ml-2"
+                    >
+                      panchalviresh757@gmail.com</a
+                    >
+                  </div>
+                  <div class="mb-2">
+                    <span class="text">Phone:</span
+                    ><span class="ml-2"> 9926301256</span>
+                  </div>
+                  <div class="mb-2">
+                    <span class="text">Location:</span
+                    ><span class="ml-2"> Ratlam, India</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-section d-none">
+              <h2>Professional Experience</h2>
+              <div class="experience-item">
+                <h3>Senior Full Stack Developer</h3>
+                <div class="company">Tech Solutions Inc.</div>
+                <div class="date">January 2022 - Present</div>
+                <p>
+                  Lead development of web applications using React, Node.js, and
+                  PostgreSQL. Managed a team of 4 developers and collaborated
+                  with product managers to deliver high-quality software
+                  solutions.
+                </p>
+              </div>
+              <div class="experience-item">
+                <h3>Full Stack Developer</h3>
+                <div class="company">Digital Innovations LLC</div>
+                <div class="date">June 2020 - December 2021</div>
+                <p>
+                  Developed and maintained multiple client projects using modern
+                  web technologies. Implemented responsive designs and optimized
+                  application performance.
+                </p>
+              </div>
+              <div class="experience-item">
+                <h3>Frontend Developer</h3>
+                <div class="company">Creative Agency</div>
+                <div class="date">March 2019 - May 2020</div>
+                <p>
+                  Created engaging user interfaces for various clients using
+                  HTML, CSS, JavaScript, and React. Collaborated with designers
+                  to implement pixel-perfect designs.
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-section">
+              <h2>Education</h2>
+              <div class="education-item">
+                <h3>
+                  Bachelor of Computer Application
+                  <p style="color: grey; font-size: 14px; font-weight: 300">
+                    | Pursuing
+                  </p>
+                </h3>
+                <div class="school">
+                  Royal Institute of Technology and Advanced Studies Ratlam,
+                  India
+                </div>
+                <div class="date">August 2023 – May 2026</div>
+              </div>
+              <div class="education-item">
+                <h3>
+                  12<small>th</small>
+                  <p style="color: grey; font-size: 14px; font-weight: 300">
+                    | Percentage: 54.2%
+                  </p>
+                </h3>
+                <div class="school">
+                  Government Excellence Higher Secondary School Ratlam, India
+                </div>
+                <div class="date">November 2021 – December 2022</div>
+              </div>
+            </div>
+
+            <div class="resume-section">
+              <h2>Skills</h2>
+              <div class="skills-grid">
+                <div class="skill-category">
+                  <h4>Programming Languages</h4>
+                  <div class="list">
+                    <p class="list-item">Python</p>
+                    <p class="list-item">C</p>
+                    <p class="list-item">C++</p>
+                    <p class="list-item">HTML5 & CSS3</p>
+                  </div>
+                </div>
+                <div class="skill-category">
+                  <h4>Developer Tools</h4>
+                  <div class="list">
+                    <p class="list-item">VS Code</p>
+                    <p class="list-item">Jupyter NoteBook</p>
+                    <p class="list-item">PyCharm</p>
+                  </div>
+                </div>
+                <div class="skill-category">
+                  <h4>Database</h4>
+                  <div class="list">
+                    <p class="list-item">MySQL</p>
+                    <p class="list-item">MongoDB</p>
+                  </div>
+                </div>
+                <div class="skill-category">
+                  <h4>Tools & Others</h4>
+                  <div class="list">
+                    <p class="list-item">Git & GitHub</p>
+                    <p class="list-item">Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="resume-section">
+              <h2>Relevant Coursework</h2>
+              <div class="coursework-category">
+                <p class="list-item">Data Structures and Algorithms</p>
+                <p class="list-item">Database Management System</p>
+                <p class="list-item">Operating System</p>
+                <p class="list-item">Machine Learning</p>
+                <p class="list-item">Computer Networking</p>
+              </div>
+            </div>
+            <div class="resume-section">
+              <h2>Interests</h2>
+              <div class="coursework-category">
+                <p class="list-item">Algorithmic Problem Solving</p>
+                <p class="list-item">AI Research</p>
+                <p class="list-item">Data Science Trends</p>
+                <p class="list-item">Exploring and learning new skills</p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <!-- About Page -->
+      <div id="about" class="page">
+        <main>
+          <div class="content-wrapper">
+            <h1 class="page-title">About Me</h1>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center">
+              <div
+                style="
+                  width: 200px;
+                  height: 200px;
+                  border-radius: 50%;
+                  background: linear-gradient(135deg, #667eea, #764ba2);
+                  margin: 0 auto 2rem;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: white;
+                  font-size: 4rem;
+                  font-weight: bold;
+                  font-family: sofia;
+                "
+              >
+                VP
+              </div>
+
+              <h2 style="color: #667eea; margin-bottom: 1rem">
+                Hello, I'm Viresh Panchal
+              </h2>
+              <p
+                style="
+                  font-size: 1.1rem;
+                  line-height: 1.8;
+                  color: #666;
+                  margin-bottom: 2rem;
+                "
+              >
+                I'm a passionate Python and backend developer with a strong
+                foundation in building reliable, scalable, and secure web
+                applications. My journey began in college, where I discovered my
+                love for problem-solving and backend logic—and I’ve been coding
+                ever since.
+              </p>
+
+              <p
+                style="
+                  font-size: 1.1rem;
+                  line-height: 1.8;
+                  color: #666;
+                  margin-bottom: 2rem;
+                "
+              >
+                I specialize in Python, Django, Flask, and database systems like
+                MySQL and SQLite. I focus on writing clean, maintainable code
+                and developing efficient APIs that power smooth user
+                experiences. I’m always eager to learn, adapt, and explore new
+                technologies in this fast-moving tech world.
+              </p>
+
+              <p
+                style="
+                  font-size: 1.1rem;
+                  line-height: 1.8;
+                  color: #666;
+                  margin-bottom: 2rem;
+                "
+              >
+                Outside of coding, you’ll find me sharing tech content,
+                contributing to personal projects, or enjoying creative outlets
+                like film editing and design. I'm driven by curiosity and the
+                thrill of turning complex challenges into elegant solutions.
+              </p>
+
+              <div
+                style="
+                  background: white;
+                  padding: 2rem;
+                  border-radius: 15px;
+                  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+                  margin-top: 3rem;
+                "
+              >
+                <h3 style="color: #667eea; margin-bottom: 1rem">
+                  What I Love About Development
+                </h3>
+                <p style="color: #666; line-height: 1.6">
+                  I enjoy the constant learning—technology never stands still,
+                  and neither do I. Whether it's refining backend logic,
+                  integrating APIs, or enhancing performance, I thrive on the
+                  challenge of finding better, cleaner, and more scalable
+                  solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <!-- Contact Page -->
+      <div id="contact" class="page">
+        <main>
+          <div class="content-wrapper">
+            <h1 class="page-title">Contact Me</h1>
+            <div style="text-align: center; margin-bottom: 3rem">
+              <p style="font-size: 1.1rem; color: #666">
+                I'd love to hear from you! Whether you have a project in mind or
+                just want to connect.
+              </p>
+            </div>
+
+            <form
+              action="https://formspree.io/f/mldbyagq"
+              method="POST"
+              class="contact-form"
+              onsubmit="handleSubmit(event)"
+            >
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+
+              <div style="text-align: center">
+                <button type="submit" class="submit-btn">Send Message</button>
+              </div>
+            </form>
+
+            <div
+              style="
+                text-align: center;
+                margin-top: 3rem;
+                padding-top: 3rem;
+                border-top: 1px solid #e1e1e1;
+              "
+            >
+              <h3 style="color: #667eea; margin-bottom: 1rem">
+                Other Ways to Reach Me
+              </h3>
+              <p style="color: #666; margin-bottom: 0.5rem">
+                📧 panchalviresh757@gmail.com
+              </p>
+              <p style="color: #666; margin-bottom: 0.5rem">
+                📱 +91 9926301256
+              </p>
+              <p style="color: #666">📍 Ratlam, India</p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a
+            target="_blank"
+            href="https://github.com/viru757pan"
+            class="social-item"
+          >
+            <span class="icon-github2"></span>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/viresh-panchal-3923a11b9"
+            class="social-item"
+          >
+            <span class="icon-linkedin2"></span>
+          </a>
+          <!-- <a
+            target="_blank"
+            href="mailto:panchalviresh757@gmail.com"
+            class="social-item"
+          >
+            <span class="icon-mail2"></span>
+          </a> -->
+        </div>
+        <div
+          style="
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 3rem;
+            border-top: 1px solid #e1e1e1;
+          "
+        >
+          <h3 style="color: #667eea; margin-bottom: 1rem">
+            Other Ways to Reach Me
+          </h3>
+          <p style="color: #666; margin-bottom: 0.5rem">
+            📧 panchalviresh757@gmail.com
+          </p>
+          <p style="color: #666; margin-bottom: 0.5rem">📱 +91 9926301256</p>
+          <p style="color: #666">📍 Ratlam, India</p>
+        </div>
+        <p style="margin-top: 2rem">
+          &copy; 2025 Viresh Panchal. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
