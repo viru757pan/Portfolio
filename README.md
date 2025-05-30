@@ -31,7 +31,7 @@
 
 ### 🌐 Live Preview
 
-> Coming Soon or [Deployed Link](#)
+> [Deployed Link](https://viru757pan.github.io/Portfolio/)
 
 ---
 
