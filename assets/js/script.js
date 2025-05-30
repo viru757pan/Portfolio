@@ -1,25 +1,3 @@
-// Navigation functionality
-function showPage(pageId) {
-  // Hide all pages
-  const pages = document.querySelectorAll(".page");
-  pages.forEach((page) => page.classList.remove("active"));
-
-  // Show selected page
-  document.getElementById(pageId).classList.add("active");
-
-  // Update navigation
-  const navLinks = document.querySelectorAll(".nav-link");
-  navLinks.forEach((link) => link.classList.remove("active"));
-  event.target.classList.add("active");
-}
-
-// Contact form handling
-function handleSubmit(event) {
-  event.preventDefault();
-  alert("Thank you for your message! I'll get back to you soon.");
-  event.target.reset();
-}
-
 // Smooth scrolling and animations
 document.addEventListener("DOMContentLoaded", function () {
   // Add entrance animations

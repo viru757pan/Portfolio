@@ -549,12 +549,3 @@ footer {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
-/* Hide all pages initially */
-.page {
-  display: none;
-}
-
-.page.active {
-  display: block;
-}
