@@ -1,0 +1,126 @@
+/* ========== Responsive Design ========== */
+
+/* --- Tablet Devices --- */
+@media (max-width: 768px) {
+  .coursework-category {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* --- Large Phones / Small Tablets --- */
+@media (max-width: 600px) {
+  .resume-section .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.7rem;
+  }
+
+  .resume-section .skills-grid .skill-category {
+    padding: 1rem;
+  }
+}
+
+/* --- Phones --- */
+@media (max-width: 500px) {
+  .nav-links a.active {
+    color: #667eea;
+  }
+
+  .nav-links a.active::after {
+    width: 100%;
+  }
+
+  header .container {
+    display: none;
+  }
+
+  header .container_resp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+
+  .hero-btn {
+    width: 13rem;
+  }
+
+  .hero-btn a {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .featured-projects .projects-grid,
+  .content-wrapper .projects-grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* --- Medium Phones --- */
+@media (max-width: 425px) {
+  .content-wrapper {
+    padding: 1.5rem;
+  }
+}
+
+/* --- Smaller Phones --- */
+@media (max-width: 400px) {
+  .project-card {
+    font-size: 15px;
+    width: 280px;
+  }
+}
+
+/* --- Small Phones --- */
+@media (max-width: 375px) {
+  .content-wrapper .header .pdf-button {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .cta-button {
+    padding: 0.5rem 1rem;
+  }
+
+  .project-card {
+    font-size: 14px;
+    width: 270px;
+  }
+}
+
+/* --- Very Small Phones --- */
+@media (max-width: 360px) {
+  .content-wrapper {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 260px;
+  }
+
+  .coursework-category {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+}
+
+/* --- Extra Small Devices --- */
+@media (max-width: 321px) {
+  .hero-btn {
+    width: 12.5rem;
+  }
+
+  .hero-btn a {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .project-card {
+    width: 240px;
+  }
+}

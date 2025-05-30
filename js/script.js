@@ -41,3 +41,31 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(card);
   });
 });
+
+// navbar script
+
+const bar = document.getElementById("bar");
+const cross = document.getElementById("cross");
+const nav = document.getElementById("nav");
+const navItems = document.querySelectorAll("#nav .nav-links li");
+
+bar.addEventListener("click", function () {
+  nav.classList.add("show");
+  this.classList.remove("active");
+  cross.classList.add("active");
+});
+
+cross.addEventListener("click", function () {
+  nav.classList.remove("show");
+  this.classList.remove("active");
+  bar.classList.add("active");
+});
+
+// Close menu when any nav item is clicked
+navItems.forEach((li) => {
+  li.addEventListener("click", () => {
+    nav.classList.remove("show");
+    cross.classList.remove("active");
+    bar.classList.add("active");
+  });
+});
