@@ -52,15 +52,9 @@ MyPortfolio/
 ├── assets/
 │   ├── css/
 │   └── js/
-
+```
 
 ## Authors
 
 - [@Viresh Panchal](https://www.github.com/viru757pan)
 
-
-## Demo
-
-Insert gif or link to demo
-
-[fd]()
