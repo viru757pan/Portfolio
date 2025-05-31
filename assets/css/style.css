@@ -218,7 +218,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .cta-button {
@@ -226,7 +226,7 @@ main {
   align-items: center;
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
-  padding: 1rem 2rem;
+  padding: 0.6rem 1.2rem;
   text-decoration: none;
   border-radius: 50px;
   font-weight: bold;
