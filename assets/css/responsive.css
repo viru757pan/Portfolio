@@ -57,6 +57,11 @@
     align-items: center;
     flex-direction: column;
   }
+
+  .upper-btn {
+    bottom: 10px;
+    right: 10px;
+  }
 }
 
 /* --- Medium Phones --- */

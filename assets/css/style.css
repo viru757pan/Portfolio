@@ -545,3 +545,27 @@ footer {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+.upper-btn {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  display: none;
+  border-radius: 50%;
+}
+
+.upper-btn .up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  cursor: pointer;
+}
