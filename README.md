@@ -49,8 +49,12 @@
 ```bash
 MyPortfolio/
 ├── index.html
+├── projects.html
+├── resume.html
+├── about.html
 ├── assets/
 │   ├── css/
+│   └── images/
 │   └── js/
 ```
 
