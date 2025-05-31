@@ -123,4 +123,8 @@
   .project-card {
     width: 240px;
   }
+
+  .profile-item {
+    padding: 0.5rem;
+  }
 }
